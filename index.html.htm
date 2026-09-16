@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>conecta= - Inclusão Digital</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f4f8fc;
+            color: #173b68;
+        }
+
+        header {
+            background: white;
+            padding: 20px 8%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .logo {
+            font-size: 28px;
+            font-weight: bold;
+            color: #1769aa;
+        }
+
+        nav a {
+            margin-left: 20px;
+            text-decoration: none;
+            color: #173b68;
+            font-weight: bold;
+        }
+
+        .hero {
+            background: #e8f4ff;
+            padding: 90px 8%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .hero-text {
+            max-width: 650px;
+        }
+
+        h1 {
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+
+        h1 span {
+            color: #1769aa;
+        }
+
+        .hero p {
+            font-size: 20px;
+            color: #50657c;
+        }
+
+        .imagem {
+            font-size: 130px;
+        }
+
+        .botao {
+            display: inline-block;
+            margin-top: 20px;
+            background: #1769aa;
+            color: white;
+            padding: 15px 25px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        section {
+            padding: 70px 8%;
+        }
+
+        .titulo {
+            text-align: center;
+            font-size: 35px;
+            margin-bottom: 20px;
+        }
+
+        .texto {
+            max-width: 800px;
+            margin: auto;
+            text-align: center;
+            font-size: 18px;
+            color: #50657c;
+        }
+
+        .cards {
+            margin-top: 40px;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 25px;
+        }
+
+        .card {
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            border: 1px solid #ddd;
+        }
+
+        .card h3 {
+            font-size: 22px;
+        }
+
+        .card p {
+            color: #5b6f84;
+        }
+
+        .icone {
+            font-size: 45px;
+        }
+
+        .verde {
+            background: #eef9f3;
+        }
+
+        footer {
+            background: #17304d;
+            color: white;
+            text-align: center;
+            padding: 35px;
+        }
+
+        @media (max-width: 700px) {
+
+            header {
+                flex-direction: column;
+                gap: 15px;
+            }
+
+            nav a {
+                margin: 5px;
+            }
+
+            .hero {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            h1 {
+                font-size: 35px;
+            }
+
+            .cards {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+
+        <div class="logo">
+            Conecta+
+        </div>
+
+        <nav>
+            <a href="#inicio">Início</a>
+            <a href="#sobre">Sobre</a>
+            <a href="#beneficios">Benefícios</a>
+            <a href="#seguranca">Segurança</a>
+        </nav>
+
+    </header>
+
+
+    <section class="hero" id="inicio">
+
+        <div class="hero-text">
+
+            <h1>
+                Inclusão digital na
+                <span>terceira idade</span>
+            </h1>
+
+            <p>
+                A tecnologia pode facilitar a vida, aproximar pessoas
+                e proporcionar mais autonomia. Aprenda como tornar
+                o acesso à tecnologia mais simples e seguro para
+                pessoas idosas.
+            </p>
+
+            <a href="#sobre" class="botao">
+                Conheça o projeto
+            </a>
+
+        </div>
+
+        <div class="imagem">
+            👵📱
+        </div>
+
+    </section>
+
+
+    <section id="sobre">
+
+        <h2 class="titulo">
+            O que é inclusão digital?
+        </h2>
+
+        <p class="texto">
+            Inclusão digital é garantir que todas as pessoas possam
+            ter acesso à tecnologia e aprender a utilizá-la.
+            Para a terceira idade, isso significa oferecer orientação,
+            acessibilidade e segurança para que o uso de celulares,
+            computadores e internet seja mais fácil.
+        </p>
+
+    </section>
+
+
+    <section class="verde" id="beneficios">
+
+        <h2 class="titulo">
+            Benefícios da tecnologia
+        </h2>
+
+        <p class="texto">
+            O acesso adequado à tecnologia pode contribuir para
+            diferentes atividades do cotidiano.
+        </p>
+
+        <div class="cards">
+
+            <div class="card">
+
+                <div class="icone">👨‍👩‍👧</div>
+
+                <h3>
+                    Comunicação
+                </h3>
+
+                <p>
+                    Facilita o contato com familiares e amigos
+                    através de mensagens e chamadas.
+                </p>
+
+            </div>
+
+
+            <div class="card">
+
+                <div class="icone">🌐</div>
+
+                <h3>
+                    Informação
+                </h3>
+
+                <p>
+                    Permite acessar notícias, conteúdos educativos
+                    e informações pela internet.
+                </p>
+
+            </div>
+
+
+            <div class="card">
+
+                <div class="icone">🏠</div>
+
+                <h3>
+                    Autonomia
+                </h3>
+
+                <p>
+                    Pode facilitar tarefas do cotidiano e o acesso
+                    a diferentes serviços.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <section>
+
+        <h2 class="titulo">
+            Como melhorar o acesso?
+        </h2>
+
+        <div class="cards">
+
+            <div class="card">
+
+                <div class="icone">🔤</div>
+
+                <h3>
+                    Letras maiores
+                </h3>
+
+                <p>
+                    Aumentar o tamanho das letras e dos elementos
+                    pode facilitar a visualização.
+                </p>
+
+            </div>
+
+
+            <div class="card">
+
+                <div class="icone">👨‍🏫</div>
+
+                <h3>
+                    Orientação
+                </h3>
+
+                <p>
+                    Cursos e explicações simples ajudam no
+                    aprendizado da tecnologia.
+                </p>
+
+            </div>
+
+
+            <div class="card">
+
+                <div class="icone">🤝</div>
+
+                <h3>
+                    Paciência
+                </h3>
+
+                <p>
+                    Cada pessoa possui seu próprio ritmo de
+                    aprendizado e adaptação.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <section class="verde" id="seguranca">
+
+        <h2 class="titulo">
+            🔒 Segurança digital
+        </h2>
+
+        <p class="texto">
+            Aprender a utilizar a internet também significa
+            aprender a se proteger.
+        </p>
+
+        <div class="cards">
+
+            <div class="card">
+
+                <div class="icone">🔗</div>
+
+                <h3>
+                    Cuidado com links
+                </h3>
+
+                <p>
+                    Não clique em links suspeitos ou enviados
+                    por desconhecidos.
+                </p>
+
+            </div>
+
+
+            <div class="card">
+
+                <div class="icone">🔑</div>
+
+                <h3>
+                    Proteja suas senhas
+                </h3>
+
+                <p>
+                    Nunca compartilhe suas senhas com outras pessoas.
+                </p>
+
+            </div>
+
+
+            <div class="card">
+
+                <div class="icone">⚠️</div>
+
+                <h3>
+                    Atenção aos golpes
+                </h3>
+
+                <p>
+                    Desconfie de mensagens que pedem dinheiro
+                    ou informações pessoais.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <section>
+
+        <h2 class="titulo">
+            Tecnologia deve ser para todos
+        </h2>
+
+        <p class="texto">
+            A inclusão digital da terceira idade depende de acesso,
+            conhecimento, orientação e ferramentas acessíveis.
+            Com apoio adequado, a tecnologia pode se tornar
+            mais simples e útil no dia a dia.
+        </p>
+
+    </section>
+
+
+    <footer>
+
+        <h2>
+            Conecta+
+        </h2>
+
+        <p>
+            Inclusão digital para a terceira idade.
+        </p>
+
+        <p>
+            © 2026 Conecta+
+        <p>
+
+DESENVOLVEDORES
+<p>
+
+Railan Araújo <p>
+Maria eduarda <p>
+Antônio Neto
+
+        </p>
+
+    </footer>
+
+</body>
+</html>
